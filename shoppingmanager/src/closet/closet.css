@@ -1,0 +1,39 @@
+.closetPos{
+	position: absolute;
+	top: 200px;
+	left: 300px;
+	width: 70%;
+	height: 250px;
+	border: 2px solid rgba(169,225,169,0.6);
+}
+
+.collectionPos{
+	position: absolute;
+	text-align: left;
+	top: 200px;
+	left: 40px;
+	width: 200px;
+	font-size: 20px;
+	color: rgba(169,169,169,0.8);
+}
+
+.collectionPos a{
+	color: rgba(169,169,169,0.8);
+	opacity: 1.0;
+	text-decoration: underline rgba(169,169,169,0.8) solid
+}
+
+.collectionPos:hover .collectionDiv{
+	display: block;
+} 
+
+.collectionDiv{
+	position: relative;
+	top: 0;
+	left: 0;
+	border: 2px solid rgba(169,169,169,0.8);
+	width: 150px;
+	height: 300px;
+	color: rgba(169,169,169,0.8);
+	display: none;
+}
